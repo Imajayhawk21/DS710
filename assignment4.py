@@ -13,8 +13,12 @@ last_name  = "Gogineni" # put your last name here, inside the ""
 #Max tuple check
 
 def maximums(tuple_list):
-    
+    max_nums = max(tuple_list)
+    return max_nums
 
+#%%
+
+maximums([(1,2,3),(4,5,6)])
 
 
 #%%
